@@ -6,6 +6,9 @@ Adam Miller, Maxim Svistunov, Marie Doleželová, et al.
 :doctype: book
 :source-highlighter: coderay
 :community:
+:stylesheet: dynamic-styles.css
+:stylesdir: ../css
+:copycss:
 
 include::source/introduction.adoc[leveloffset=+1]
 
