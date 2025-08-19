@@ -861,7 +861,7 @@ needed for the **build process**, for example, compilers, build tools, and
 development libraries. They are only required on the system doing the building. 
 
 ``Requires`` are dependencies for the **runtime environment**. These are the
-packages and libraries that must be installed on a user's system fr your program
+packages and libraries that must be installed on a user's system for your program
 to run correctly
 
 In this example we will need the ``python`` package in order to perform the
