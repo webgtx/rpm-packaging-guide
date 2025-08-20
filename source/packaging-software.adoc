@@ -1551,6 +1551,9 @@ Updating / installing...
 For this tutorial, execute the ``rpm -Uvh`` commands above to continue
 interacting with the SPEC files and sources.
 
++
+NOTE: ``-Uvh`` flags stand for **upgrade, verbose, and hash** (progress bar).
+
 [[build-binary]]
 ==== Building Binary from the SPEC file
 
