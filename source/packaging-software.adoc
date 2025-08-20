@@ -1236,9 +1236,15 @@ Patch0:         cello-output-first-patch.patch
 ----
 
 Next up we have ``BuildRequires`` and ``Requires``, each of which define
-something that is required by the package. However, ``BuildRequires`` is to tell
-``rpmbuild`` what is needed by your package at **build** time and ``Requires``
-is what is needed by your package at **run** time.
+something that is required by the package. 
+
+``BuildRequires`` are dependencies
+needed for the **build process**, for example, compilers, build tools, and
+development libraries. They are only required on the system doing the building. 
+
+``Requires`` are dependencies for the **runtime environment**. These are the
+packages and libraries that must be installed on a user's system for your program
+to run correctly
 
 In this example we will need the ``gcc`` and ``make`` packages in order to
 perform the compilation build process. Runtime requirements are fortunately
