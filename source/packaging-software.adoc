@@ -1291,7 +1291,7 @@ information provided in the source code that is necessary in a later portion of
 the SPEC. In this section we will simply use the provided macro ``%setup -q``.
 
 The ``%build`` section is where we tell the system how to actually build the
-software we are packaging. Since wrote a simple ``Makefile`` for our
+software we are packaging. Since we already wrote a simple ``Makefile`` for our
 ifdef::community[https://en.wikipedia.org/wiki/C_%28programming_language%29[C]]
 ifdef::rhel[C]
 implementation, we can simply use the http://www.gnu.org/software/make/[GNU make] command provided by
