@@ -216,7 +216,8 @@ clean:
 ----
 
 WARNING: The ``-g`` flag is required with ``gcc`` because ``rpmbuild`` needs debug
-information by default.
+information by default. Alternatively, you can disable `debug_package` by adding
+`%global debug_package %{nil}` line to the `cello.spec`.
 
 Now to build the software, simply run ``make``:
 
