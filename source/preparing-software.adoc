@@ -215,6 +215,9 @@ clean:
 
 ----
 
+WARNING: The ``-g`` flag is required with ``gcc`` because ``rpmbuild`` needs debug
+information by default.
+
 Now to build the software, simply run ``make``:
 
 [source,bash]
